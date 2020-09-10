@@ -1,2 +1,2 @@
 # Twitter-chat-bot
-It changes the name according to followers
+It changes your account name according to your followers
