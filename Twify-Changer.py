@@ -1,4 +1,4 @@
-#Section 1: complete code
+#Section 1: 
 import tweepy
 import os # Operating System library
 def create_api():
@@ -18,7 +18,7 @@ def create_api():
   return api
   
   
-#Section 2: complete code
+#Section 2: 
 import time
 def follower_count(user):
 
@@ -27,7 +27,7 @@ def follower_count(user):
 
   emoji_numbers.keys()
 
-  uf_split = [int(j) for j in str(user.followers_count)]
+  uf_split = [int(j) for j in str(user.follower_count)]
   emoji_followers = ''.join([emoji_numbers[j] for j in uf_split if j in emoji_numbers.keys()])
                         
   return emoji_followers
